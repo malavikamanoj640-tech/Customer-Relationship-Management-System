@@ -65,8 +65,8 @@ public class ForgotPasswordServlet extends HttpServlet {
 
     private void sendEmail(String toEmail, int otp) {
 
-        final String fromEmail = "malavikamanoj640@gmail.com";
-        final String password = "lrxv xzdk zfvj ycra";
+        final String fromEmail = "youremail@gmail.com";
+        final String password = "your password";
 
         Properties props = new Properties();
         props.put("mail.smtp.host", "smtp.gmail.com");
