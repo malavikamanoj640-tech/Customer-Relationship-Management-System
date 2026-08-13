@@ -62,7 +62,7 @@ public class UpdatePasswordServlet extends HttpServlet {
 
     private void sendEmail(String toEmail, String username) {
 
-        final String fromEmail = "malavikamanoj640@gmail.com";
+        final String fromEmail = "yourpassword@gmail.com";
         final String password = "your_app_password";
 
         Properties props = new Properties();
